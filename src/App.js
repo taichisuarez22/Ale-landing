@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navbar } from 'react-bootstrap';
 import './App.css';
 
 import Header from './components/Header';
@@ -6,9 +7,8 @@ import Header from './components/Header';
 
 
 export default function App() {
- console.log('Hola app')
   return (<div >
-    <Header/>
+    <Navbar/>
   </div>)
 }
 
