@@ -20,6 +20,8 @@ export default function Header() {
     </Nav>
     </Container>
   </Navbar>
+  <h3>que quieres comprar hoy?</h3>
+  <CartWidget.js/>
     </div>
     );
     }
